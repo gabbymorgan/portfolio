@@ -1,0 +1,21 @@
+.AboutMe__IG-Embed {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.AboutMe__IG-Embed iframe {
+    width: 100% !important;
+}
+
+.AboutMe__IG-Embed div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .AboutMe__IG-Embed div{
+        width: 89%;
+    }
+}

@@ -1,0 +1,16 @@
+.Contact__Container {
+    justify-content: center;
+}
+
+.Contact__Form {
+    justify-content: center;
+}
+
+.Contact__Form form {
+    width: 100%;
+}
+
+.Contact__Message {
+    margin: 1rem 0 1rem 0;
+    height: 20rem !important;
+}

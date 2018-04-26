@@ -1,0 +1,11 @@
+{
+    "projects": [
+        {
+            "title": "Lambda Notes",
+            "description": "Simple note-taking app using React, Redux, and Firebase",
+            "img_url": "https://image.ibb.co/hvunrn/screencapture_lambda_notes_b2b43_firebaseapp_2018_04_13_17_12_04.png",
+            "github": "https://github.com/runranron/front-end-project-week/tree/firebase",
+            "demo": "https://lambda-notes-b2b43.firebaseapp.com/"
+        }
+    ]
+}

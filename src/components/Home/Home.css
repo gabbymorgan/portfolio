@@ -1,0 +1,34 @@
+.Home__Avatar {
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.Home__Avatar__Col {
+    display: block;
+}
+
+.Home__Avatar img {
+    border-radius: 50%;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+}
+
+.Home__Title {
+    text-align: center;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+@media (min-width: 768px) {
+    .Home__Avatar img {
+        margin: 0 0 0 6% !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .Home__Avatar img {
+        border: rgb(116, 116, 116) 1px solid;
+        margin: 0 0 0 21% !important;
+    }
+}

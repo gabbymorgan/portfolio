@@ -1,9 +1,16 @@
 import React, { Component } from 'react';
-import axios from 'axios';
 import { Form, Input } from 'reactstrap';
+import firebase from '../../firebase';
 
 class AddProject extends Component {
-  state = {}
+  state = {
+    title: '',
+    description: '',
+    img_url: '',
+    github: '',
+    codepen: '',
+    demo: '',
+  }
   render() {
     return (
       <Form onSubmit={() => this.handleSubmit()}>
@@ -22,14 +29,13 @@ class AddProject extends Component {
     this.setState({
       [event.target.name]: event.target.value,
     });
-    console.log(this.state);
-  }
+}
 
   handleSubmit() {
-    axios
-      .post('https://portfolio-aa4f9.firebaseio.com/projects', this.state)
-      .then(response => console.log(response))
-      .catch(err => console.log(err));
+    const itemsRef = firebase.database().ref('poop');
+    const item = { ...this.state }
+    console.log(item);
+    itemsRef.push(item);
   }
 }
 

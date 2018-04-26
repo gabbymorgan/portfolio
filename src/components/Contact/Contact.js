@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Row, Col, Form, Input, Button, FormGroup, Label } from 'reactstrap';
-import axios from 'axios';
+import { Container, Row, Col, Form, Input, Button } from 'reactstrap';
 
 import './Contact.css';
 

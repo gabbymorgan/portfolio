@@ -1,12 +1,9 @@
 import React, { Component } from 'react';
 import {
-  Row,
   Col,
   Card,
   CardTitle,
   CardText,
-  CardActions,
-  CardMenu,
   ButtonDropdown,
   DropdownItem,
   CardBody,
